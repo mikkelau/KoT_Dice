@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.4)
-project(InletDistortion)
+project(KoT_Dice)
 
 
 FIND_PACKAGE(Qt5Widgets)
