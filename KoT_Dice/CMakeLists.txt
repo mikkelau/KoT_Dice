@@ -24,23 +24,6 @@ SET(MYSOURCE
     mainwindow.h
     mainwindow.cpp
     mainwindow.ui
-    patterntabs.cpp
-    patterntabs.h
-    patterntabs.ui
-    distortionpattern.h
-    distortionpattern.cpp
-    uniform.h
-    uniform.cpp
-    radial.h
-    radial.cpp
-    graphicswidget.h
-    graphicswidget.cpp
-    sinusoidal.h
-    sinusoidal.cpp
-    sector.h
-    sector.cpp
-    filewriter.h
-    filewriter.cpp
 #    mouseinteractorstyle.h
 #    mouseinteractorstyle.cpp
     )
