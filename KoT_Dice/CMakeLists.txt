@@ -24,6 +24,8 @@ SET(MYSOURCE
     mainwindow.h
     mainwindow.cpp
     mainwindow.ui
+    dice.h
+    dice.cpp
 #    mouseinteractorstyle.h
 #    mouseinteractorstyle.cpp
     )
