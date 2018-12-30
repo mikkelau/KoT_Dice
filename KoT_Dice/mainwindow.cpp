@@ -191,4 +191,13 @@ void MainWindow::on_resetButton_clicked()
     mNumRolls = ui->numRolls->value();
     mRollCount = 0;
     mDiceArray = vector<Dice>(mNumDice);
+
+    ui->keepDice_1->setChecked(false);
+    ui->keepDice_2->setChecked(false);
+    ui->keepDice_3->setChecked(false);
+    ui->keepDice_4->setChecked(false);
+    ui->keepDice_5->setChecked(false);
+    ui->keepDice_6->setChecked(false);
+    ui->keepDice_7->setChecked(false);
+    ui->keepDice_8->setChecked(false);
 }
