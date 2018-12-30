@@ -185,3 +185,10 @@ void MainWindow::on_keepDice_8_toggled(bool checked)
         mDiceArray[7].ToggleKeepValue(checked);
     }
 }
+void MainWindow::on_resetButton_clicked()
+{
+    mNumDice = ui->numDice->value();
+    mNumRolls = ui->numRolls->value();
+    mRollCount = 0;
+    mDiceArray = vector<Dice>(mNumDice);
+}

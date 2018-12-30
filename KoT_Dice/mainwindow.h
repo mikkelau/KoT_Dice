@@ -39,6 +39,8 @@ private slots:
 
     void on_keepDice_8_toggled(bool checked);
 
+    void on_resetButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     int mNumRolls;
