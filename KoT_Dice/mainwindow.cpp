@@ -185,3 +185,23 @@ void MainWindow::on_keepDice_8_toggled(bool checked)
         mDiceArray[7].ToggleKeepValue(checked);
     }
 }
+void MainWindow::on_resetButton_clicked()
+{
+
+    ui->numDice->setValue(6);
+    ui->numRolls->setValue(3);
+
+    mNumDice = ui->numDice->value();
+    mNumRolls = ui->numRolls->value();
+    mRollCount = 0;
+    mDiceArray = vector<Dice>(mNumDice);
+
+    ui->keepDice_1->setChecked(false);
+    ui->keepDice_2->setChecked(false);
+    ui->keepDice_3->setChecked(false);
+    ui->keepDice_4->setChecked(false);
+    ui->keepDice_5->setChecked(false);
+    ui->keepDice_6->setChecked(false);
+    ui->keepDice_7->setChecked(false);
+    ui->keepDice_8->setChecked(false);
+}
