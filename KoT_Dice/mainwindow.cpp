@@ -99,19 +99,19 @@ void MainWindow::on_rollButton_clicked()
 
         if (mRollCount == 1)
         {
-            ui->oneRoll->text() = "X";
+            ui->oneRoll->setText("X");
         }
         else if (mRollCount == 2)
         {
-            ui->twoRoll->text() = "X";
+            ui->twoRoll->setText("X");
         }
         else if (mRollCount == 3)
         {
-            ui->threeRoll->text() = "X";
+            ui->threeRoll->setText("X");
         }
         else if (mRollCount == 4)
         {
-            ui->fourRoll->text() = "X";
+            ui->fourRoll->setText("X");
         }
         else
         {
