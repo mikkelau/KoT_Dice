@@ -60,35 +60,35 @@ void MainWindow::on_rollButton_clicked()
             // Display dice values to their respective boxes
             if (i==0)
             {
-                ui->dice_1->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_1->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==1)
             {
-                ui->dice_2->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_2->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==2)
             {
-                ui->dice_3->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_3->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==3)
             {
-                ui->dice_4->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_4->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==4)
             {
-                ui->dice_5->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_5->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==5)
             {
-                ui->dice_6->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_6->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==6)
             {
-                ui->dice_7->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_7->setText(QString::number(mDiceArray[i].GetValue()));
             }
             else if (i==7)
             {
-                ui->dice_8->text() = (char)mDiceArray[i].GetValue();
+                ui->dice_8->setText(QString::number(mDiceArray[i].GetValue()));
             }
         }
 
