@@ -76,7 +76,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QSpinBox" name="spinBox">
+              <widget class="QSpinBox" name="numDice">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -131,7 +131,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QSpinBox" name="spinBox_2">
+              <widget class="QSpinBox" name="numRolls">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -186,28 +186,28 @@
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_3">
+              <widget class="QLabel" name="oneRoll">
                <property name="text">
                 <string/>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_4">
+              <widget class="QLabel" name="twoRoll">
                <property name="text">
                 <string/>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_6">
+              <widget class="QLabel" name="threeRoll">
                <property name="text">
                 <string/>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label_5">
+              <widget class="QLabel" name="fourRoll">
                <property name="text">
                 <string/>
                </property>
@@ -258,7 +258,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
-              <widget class="QLabel" name="label_8">
+              <widget class="QLabel" name="dice_1">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -273,7 +273,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox">
+              <widget class="QCheckBox" name="keepDice_1">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -307,7 +307,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_3">
              <item>
-              <widget class="QLabel" name="label_9">
+              <widget class="QLabel" name="dice_2">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -322,7 +322,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_2">
+              <widget class="QCheckBox" name="keepDice_2">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -356,7 +356,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_4">
              <item>
-              <widget class="QLabel" name="label_10">
+              <widget class="QLabel" name="dice_3">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -371,7 +371,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_3">
+              <widget class="QCheckBox" name="keepDice_3">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -405,7 +405,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_5">
              <item>
-              <widget class="QLabel" name="label_11">
+              <widget class="QLabel" name="dice_4">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -420,7 +420,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_4">
+              <widget class="QCheckBox" name="keepDice_4">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -454,7 +454,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_6">
              <item>
-              <widget class="QLabel" name="label_12">
+              <widget class="QLabel" name="dice_5">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -469,7 +469,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_5">
+              <widget class="QCheckBox" name="keepDice_5">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -503,7 +503,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_7">
              <item>
-              <widget class="QLabel" name="label_13">
+              <widget class="QLabel" name="dice_6">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -518,7 +518,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_6">
+              <widget class="QCheckBox" name="keepDice_6">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -552,7 +552,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_8">
              <item>
-              <widget class="QLabel" name="label_14">
+              <widget class="QLabel" name="dice_7">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -567,7 +567,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_7">
+              <widget class="QCheckBox" name="keepDice_7">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
@@ -601,7 +601,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_9">
              <item>
-              <widget class="QLabel" name="label_15">
+              <widget class="QLabel" name="dice_8">
                <property name="font">
                 <font>
                  <pointsize>30</pointsize>
@@ -616,7 +616,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_8">
+              <widget class="QCheckBox" name="keepDice_8">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
