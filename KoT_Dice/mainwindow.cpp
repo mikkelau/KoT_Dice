@@ -187,6 +187,10 @@ void MainWindow::on_keepDice_8_toggled(bool checked)
 }
 void MainWindow::on_resetButton_clicked()
 {
+
+    ui->numDice->setValue(6);
+    ui->numRolls->setValue(3);
+
     mNumDice = ui->numDice->value();
     mNumRolls = ui->numRolls->value();
     mRollCount = 0;
