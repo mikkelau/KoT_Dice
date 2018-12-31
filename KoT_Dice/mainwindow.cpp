@@ -113,10 +113,6 @@ void MainWindow::on_rollButton_clicked()
         {
             ui->fourRoll->setText("X");
         }
-        else
-        {
-            // clear all text
-        }
     }
 
 }
@@ -204,4 +200,18 @@ void MainWindow::on_resetButton_clicked()
     ui->keepDice_6->setChecked(false);
     ui->keepDice_7->setChecked(false);
     ui->keepDice_8->setChecked(false);
+
+    ui->dice_1->setText("X");
+    ui->dice_2->setText("X");
+    ui->dice_3->setText("X");
+    ui->dice_4->setText("X");
+    ui->dice_5->setText("X");
+    ui->dice_6->setText("X");
+    ui->dice_7->setText("X");
+    ui->dice_8->setText("X");
+
+    ui->oneRoll->setText("");
+    ui->twoRoll->setText("");
+    ui->threeRoll->setText("");
+    ui->fourRoll->setText("");
 }
